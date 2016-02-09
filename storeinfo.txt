@@ -1,0 +1,8 @@
+<php
+$conn =mysql_connect("localhost","root","");
+$db = mysql_select_db("imagestore",$conn);
+if(!$db)
+{
+echo mysql_error();
+}
+?>
